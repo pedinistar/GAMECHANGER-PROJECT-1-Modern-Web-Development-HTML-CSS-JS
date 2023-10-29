@@ -303,4 +303,7 @@ nav a {
     gap: 20px;
     padding-bottom: 20px;
   }
+  #f-right {
+    gap: 20px;
+  }
 }
