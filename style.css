@@ -138,12 +138,16 @@ nav a {
   font-size: 4.5vw;
   text-transform: uppercase;
   opacity: 0.8;
+  mix-blend-mode: difference;
 }
 
 .elem img {
   position: absolute;
-  z-index: 999;
-  display: none;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all linear 0.3s;
 }
 /* Second Page Complete */
 
